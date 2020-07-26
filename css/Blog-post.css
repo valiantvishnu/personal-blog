@@ -1,0 +1,27 @@
+
+.author{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.author-img{
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#title{
+    text-align: center;
+    font-style: italic;
+}
+
+.social{
+    padding: 10px;
+  
+}
+
+.color-white{
+    color:white;
+  
+}

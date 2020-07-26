@@ -1,0 +1,65 @@
+.container{
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-columns: auto;
+    /* grid-template-rows: 45vh 45vh; */
+    gap: 20px;
+    grid-template-areas: 
+    "first-card"
+    "second-card"
+    "third-card"
+    "fourth-card";
+    justify-content: center;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  /* text-align: center; */
+  background-color: #383232;
+  margin: 10px;
+}
+
+#first-card{
+    grid-area: first-card;
+  
+}
+
+#second-card{
+    grid-area: second-card;
+
+}
+
+#third-card{
+    grid-area: third-card;
+}
+
+.card-image{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.card-matter{
+    padding: 10px;
+    color: white;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+.footer{
+    padding: 10px;
+    color: white;
+    background-color: #555;
+    text-align: center;
+}

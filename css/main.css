@@ -1,0 +1,47 @@
+@import "main-post.css";
+@import "Blog-post.css";
+@import "color.css";
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.size{
+  font-size: large;
+}
+.footer{
+  padding: 10px;
+  color: white;
+  background-color: #555;
+  text-align: center;
+}
+#title{
+  text-align: center;
+  font-style: italic;
+}
+.social{
+  padding: 10px;
+
+}
+.color-white{
+  color:white;
+
+}
